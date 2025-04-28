@@ -1,0 +1,17 @@
+.a1 {
+    text-align: center;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+div p:nth-child(1){
+    background-color: aqua;
+    color: black;
+}
+p{
+    background-color: antiquewhite;
+    color: red;
+}

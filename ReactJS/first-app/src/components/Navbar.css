@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+}
+nav,ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+ul{
+    gap: 34px;
+}
+nav{
+    background-color: palegreen;
+    padding: 23px
+}

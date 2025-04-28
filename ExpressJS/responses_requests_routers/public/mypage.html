@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing the requests</title>
+</head>
+<body>
+
+    <script>
+        //sending a request to the server through JS & this can also easily be done using POSTMAN.
+        async function testpoint() {
+            let a=await fetch("/",{method:"PUT"})
+            let b=await a.text()
+            console.log(b)
+        }
+        testpoint()
+    </script>
+    
+</body>
+</html>

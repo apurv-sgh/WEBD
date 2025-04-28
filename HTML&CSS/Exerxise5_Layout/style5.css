@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+:root{
+    --primary-color:rgb(138, 43, 226);
+    --sec-color:rgb(194, 156, 241);
+    --text-color:rgb(57, 4, 84);
+    --hover-color:red;
+    --thrd-color:rgb(163, 94, 247);
+    --section-color:#5561c6;
+    --bar-color:rgb(197, 224, 249);
+}
+body{
+    background-color:var(--sec-color);
+}
+header{
+    position:sticky;
+    top: 0;
+}
+nav{
+    background-color:var(--primary-color);
+    padding:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding:30px;
+    font-weight: bolder;
+}
+nav ul li a{
+    text-decoration: none;
+    color:var(--text-color);
+
+}
+nav ul li a:hover{
+    color: var(--hover-color);
+}
+nav button{
+    border: none;
+    background-color: var(--sec-color);
+    padding: 10px;
+    border-radius: 30px;
+    color: var(--text-color);
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0px 0px 0px 90%;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+nav button a{
+    text-decoration: none;
+}
+nav button:hover{
+    background-color: var(--hover-color);
+}
+.container{
+    background-color: var(--thrd-color);
+    /* width: 800px;
+    height: 800px; */
+    margin: 12px 34px;
+    text-align: center;
+}
+.container .section1{
+    background-color:var(--section-color);
+    width: 45%;
+    /* width: 70vw; */
+    height: 70vh;
+    margin: 20px;
+    display: inline-block;
+    font-size: 60px;
+    align-content: center;
+}
+.container .section2{ 
+    background-color:var(--section-color);
+    width: 45%;
+    /* width: 70vw; */
+    height: 70vh;
+    margin: 20px;
+    display: inline-block;
+    font-size: 60px;
+    align-content: center;
+}
+.bar{
+    /* border: 3px solid black; */
+    background-color: var(--bar-color);
+    border-radius: 30px ;
+    padding: 20px;
+    border: none;
+    margin: 30px 500px 30px 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    color: grey;
+}
+/* .ar input{
+    background-color: var(--bar-color);
+    border-radius: 30px ;
+    padding: 20px;
+    border: none;
+    margin: 30px 500px 30px 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    color: grey;
+
+} */
+.icon {
+    position:fixed;
+    right: 0px;
+    bottom: 50px;;
+}
+.box{
+    background-color: var(--primary-color);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}

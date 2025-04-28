@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    background-color: skyblue;
+    width: 100vw;
+    height: 80vh;
+}
+
+.ball {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    border-radius: 200px;
+    animation: animx 3s linear infinite , animy 1s ease-out infinite alternate ;
+}
+@keyframes animx {
+    from{
+        left:0;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes animy {
+    from{
+        bottom:0;
+    }
+    to{
+    bottom: 100%;
+    }
+}

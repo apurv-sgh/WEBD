@@ -1,0 +1,26 @@
+.s1 {
+    text-align: center;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.a1,
+.a3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.d2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.a2,.a4{
+    text-align: center;
+}
+.a5{
+    text-align: center;
+}

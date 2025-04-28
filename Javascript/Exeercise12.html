@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            display: flex;
+            border: 2px solid black;
+            width: 800px;
+            padding: 12px;
+            margin: 14px;
+        }
+        .image{
+            position: relative;
+        }
+
+        .image img {
+            width: 200px;
+            
+        }
+        .image  .capsule{
+            position: absolute;
+            bottom:15px;
+            z-index: 10;
+            right: 5px;
+            background-color: rgb(67, 66, 66);
+            opacity: 0.9;
+            color: white;
+            padding: 3px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .text p {
+            padding: 40px 0;
+        }
+
+        .text {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
+                    alt="">
+                    <div class="capsule">11:59</div>
+            </div>
+            <div class="text">
+                <h2> Introduction to Backend | Sigma Web Dev video #2</h2>
+                <p> Hello Jollo . 272k Views . 2 months ago</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="Exercise13_Websitebuilder.js"></script>
+</body>
+
+</html>
