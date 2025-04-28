@@ -1,0 +1,34 @@
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/Navabar";
+import Footer from "@/components/Footer";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata = {
+  title: "Facebook-Connect with people",
+  description: "This is Facebook n we can connect with it. ",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <Navbar></Navbar>
+        {children}
+        <div className="conatiner mx-auto min-h-[85vh]"></div>
+        <Footer></Footer>
+      </body>
+    </html>
+  );
+}
