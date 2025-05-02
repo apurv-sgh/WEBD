@@ -1,0 +1,13 @@
+export default function Page({ params }) {
+
+    //throw new Error("Error hai")
+
+    //fetch your page(here blogpost) using slug variable.
+    let lang=["Javascript", "Java", "Cpp", "C#", "Python"]
+    if(lang.includes(params.slug)){
+     return <div>My Post: {params.slug}</div>
+    } 
+    else{
+        return <div>Post not Found</div>
+    }
+  }
